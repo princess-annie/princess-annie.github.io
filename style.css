@@ -303,7 +303,7 @@ body {
 
 .section-heading-dark {
     font-size: 32px;
-    color: var(--secondary-color);
+    color: #f7f4f0;
     margin-bottom: 30px;
     padding-bottom: 10px;
     border-bottom: 3px solid var(--primary-color);
