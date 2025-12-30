@@ -51,7 +51,7 @@ body {
 }
 
 .mobile-menu-toggle:hover {
-    background: #7fd64d;
+    background: var(--primary-color);
 }
 
 /* Sidebar Navigation */
