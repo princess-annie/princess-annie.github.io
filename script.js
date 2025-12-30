@@ -1,7 +1,7 @@
 // Mobile Menu Toggle
-const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
-const sidebar = document.querySelector('.sidebar');
-const sidebarClose = document.querySelector('.sidebar-close');
+const mobileMenuToggle = document.getElementById('mobileMenuToggle');
+const sidebar = document.getElementById('sidebar');
+const sidebarClose = document.getElementById('sidebarClose');
 const menuLinks = document.querySelectorAll('.menu-link');
 
 // Function to close sidebar
