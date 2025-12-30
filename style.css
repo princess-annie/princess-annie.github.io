@@ -296,14 +296,14 @@ body {
 
 /* Skills Section */
 .skills-section {
-    background: #1a1a1a;
+    background: var(--secondary-color);
     color: white;
     padding: 60px 0;
 }
 
 .section-heading-dark {
     font-size: 32px;
-    color: #2c3e50;
+    color:  var(--secondary-color);
     margin-bottom: 30px;
     padding-bottom: 10px;
     border-bottom: 3px solid #2c3e50;
