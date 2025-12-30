@@ -6,9 +6,9 @@
 }
 
 :root {
-    --primary-color: #61e865;
+    --primary-color: #78e861;
     --secondary-color: #333;
-    --text-color: #f1e8e8;
+    --text-color: #666;
     --light-bg: #f8f9fa;
     --white: #ffffff;
     --border-color: #e0e0e0;
@@ -53,7 +53,7 @@ body {
 }
 
 .mobile-menu-toggle:hover {
-    background: #76d64d;
+    background: #7fd64d;
 }
 
 /* Sidebar Navigation */
@@ -99,7 +99,7 @@ body {
 }
 
 .sidebar-close:hover {
-    background: #68d64d;
+    background: #1f841a;
     transform: rotate(90deg);
 }
 
@@ -614,3 +614,4 @@ body {
         width: 280px;
     }
 }
+
