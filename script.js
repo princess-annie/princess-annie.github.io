@@ -1,4 +1,5 @@
 // Mobile Menu Toggle
+document.addEventListener('DOMContentLoaded', () => {
 const mobileMenuToggle = document.getElementById('mobileMenuToggle');
 const sidebar = document.getElementById('sidebar');
 const sidebarClose = document.getElementById('sidebarClose');
