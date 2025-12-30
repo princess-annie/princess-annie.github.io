@@ -306,7 +306,7 @@ body {
     color: var(--secondary-color);
     margin-bottom: 30px;
     padding-bottom: 10px;
-    border-bottom: 3px solid var(--secondary-color;
+    border-bottom: 3px #94b49f;
     display: inline-block;
     font-weight: 600;
     letter-spacing: 2px;
