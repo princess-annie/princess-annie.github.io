@@ -6,12 +6,13 @@
 }
 
 :root {
-    --primary-color: #78e861;
-    --secondary-color: #333;
-    --text-color: #666;
-    --light-bg: #f8f9fa;
+    --primary-color: #94b49f;
+    --secondary-color: #2c3e50;
+    --accent-color: #d4a574; 
+    --text-color: #5a5a5a;
+    --light-bg: #f7f4f0;
     --white: #ffffff;
-    --border-color: #e0e0e0;
+    --border-color: #e0d8cf;
     --transition: all 0.3s ease;
 }
 
@@ -166,7 +167,7 @@ body {
 
 /* Header */
 .header {
-    background: white;
+    background:#f7f4f0;
     border-bottom: 3px solid var(--primary-color);
     padding: 20px 0;
     z-index: 1000;
@@ -262,7 +263,7 @@ body {
     display: inline-block;
     padding: 15px 40px;
     background: transparent;
-    color: var(--primary-color);
+    color: #94b49f;
     border: 2px solid var(--primary-color);
     border-radius: 5px;
     text-decoration: none;
@@ -280,7 +281,7 @@ body {
     display: inline-block;
     padding: 12px 30px;
     background: transparent;
-    color: var(--primary-color);
+    color: #94b49f;
     border: 2px solid var(--primary-color);
     border-radius: 5px;
     text-decoration: none;
@@ -330,7 +331,7 @@ body {
 
 /* Resume Section */
 .resume-section {
-    background: white;
+    background:#f7f4f0;
 }
 
 .resume-content {
@@ -356,7 +357,7 @@ body {
 }
 
 .project-card {
-    background: white;
+    background: #f7f4f0;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 5px 15px rgba(0,0,0,0.05);
@@ -403,7 +404,7 @@ body {
 
 /* Certifications Section */
 .certifications-section {
-    background: white;
+    background: #f7f4f0;
 }
 
 .certifications-grid {
@@ -454,7 +455,7 @@ body {
 
 .certification-content {
     padding: 30px;
-    background: white;
+    background: #f7f4f0;
 }
 
 .certification-content h3 {
@@ -480,7 +481,7 @@ body {
 }
 
 .contact-card {
-    background: white;
+    background: #f7f4f0;
     padding: 40px;
     border-radius: 10px;
     text-align: center;
