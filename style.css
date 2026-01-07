@@ -426,8 +426,8 @@ body {
 
 .certifications-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr) !important;
-    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
     align-items: start; 
     max-width: 1000px;  
     margin: 20px auto 0 auto; 
@@ -505,8 +505,8 @@ body {
 
 .contact-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr) !important;
-    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
     max-width: 1000px;
     margin: 0 auto;
     margin-top: 20px;
