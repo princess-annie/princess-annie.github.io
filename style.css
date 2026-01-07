@@ -6,10 +6,10 @@
 }
 
 :root {
-    --primary-color: #94b49f;
-    --secondary-color: #2c3e50;
-    --accent-color: #d4a574; 
-    --text-color: #5a5a5a;
+    --primary-color: #f97316;
+    --secondary-color: #1c1917;
+    --accent-color:#ea580c; 
+    --text-color: #292524;
     --light-bg: #f7f4f0;
     --white: #ffffff;
     --border-color: #e0d8cf;
@@ -97,7 +97,7 @@ body {
 }
 
 .sidebar-close:hover {
-    background: #1f841a;
+    background: var(--accent-color);
     transform: rotate(90deg);
 }
 
@@ -222,6 +222,16 @@ body {
 .profile-section {
     background: white;
 }
+.section-heading-dark {
+    font-size: 32px;
+    color: #f7f4f0;  /* ✅ This is fine - keep it */
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid var(--primary-color);
+    display: inline-block;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
 
 .profile-content {
     display: grid;
@@ -263,7 +273,7 @@ body {
     display: inline-block;
     padding: 15px 40px;
     background: transparent;
-    color: #94b49f;
+    color: var(--primary-color);
     border: 2px solid var(--primary-color);
     border-radius: 5px;
     text-decoration: none;
@@ -281,7 +291,7 @@ body {
     display: inline-block;
     padding: 12px 30px;
     background: transparent;
-    color: #94b49f;
+    color:var(--primary-color);
     border: 2px solid var(--primary-color);
     border-radius: 5px;
     text-decoration: none;
@@ -357,7 +367,7 @@ body {
 }
 
 .project-card {
-    background: #f7f4f0;
+    background: #ffffff;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 5px 15px rgba(0,0,0,0.05);
