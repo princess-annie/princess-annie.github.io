@@ -10,7 +10,7 @@
     --secondary-color: #2c3e50;
     --accent-color: #d4a574; 
     --text-color: #5a5a5a;
-    --light-bg: #1e293b;
+    --light-bg: #f8fafc;
     --white: #ffffff;
     --border-color: #e0d8cf;
     --transition: all 0.3s ease;
@@ -331,7 +331,7 @@ body {
 
 /* Resume Section */
 .resume-section {
-    background:#1e293b;
+    background:#f8fafc;
 }
 
 .resume-content {
