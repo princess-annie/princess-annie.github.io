@@ -424,7 +424,7 @@ body {
 .certifications-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
+    gap: 20px;
     align-items: start; 
     max-width: 1000px;  
     margin: 20px auto 0 auto; 
@@ -474,7 +474,7 @@ body {
 }
 
 .certification-content {
-    padding: 18px;
+    padding: 20px;
     background: #f7f4f0;
     flex-grow: 1;
 }
