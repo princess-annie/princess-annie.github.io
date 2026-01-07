@@ -209,14 +209,14 @@ body {
 
 /* Sections */
 .section {
-    padding: 80px 0;
+    padding: 50px 0;
 }
 
 .section-heading {
     font-size: 36px;
     color: var(--secondary-color);
-    margin-bottom: 40px;
-    padding-bottom: 15px;
+    margin-bottom: 30px;
+    padding-bottom: 12px;
     border-bottom: 3px solid var(--primary-color);
     display: inline-block;
 }
@@ -311,7 +311,7 @@ body {
 .skills-section {
     background: var(--secondary-color);
     color: white;
-    padding: 60px 0;
+    padding: 50px 0;
 }
 
 .section-heading-dark {
@@ -418,6 +418,7 @@ body {
 /* Certifications Section */
 .certifications-section {
     background: #f7f4f0;
+    padding: 50px 0;
 }
 
 .certifications-grid {
@@ -485,12 +486,14 @@ body {
 /* Contact Section */
 .contact-section {
     background: var(--light-bg);
+    padding: 60px 0 40px 0;
 }
 
 .contact-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
+    gap: 30px;
+    margin-top: 20px;
 }
 
 .contact-card {
