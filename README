@@ -1,0 +1,106 @@
+### PROJECT OVERVIEW
+This project analyzes a small bookstore's inventory dataset containing common data entry and cleaning challenges. 
+The goal is to examine book and genre performance to understand sales trends and inform business decisions.
+****************************************************************************
+
+### DATA SOURCE
+DATA SOURCE
+Dataset Provider: Afriment Internships
+
+Key Columns:
+Book ID
+Title
+Author
+Genre
+Publication Year
+Price
+Quantity
+
+*******************************************************************************
+Tool Used: Microsoft Excel
+
+*************************************************************************************
+### DATASET OVERVIEW
+Total Books: 25
+Total Genres: 11
+
+***************************************************************************************
+### DATA CLEANING PROCESS
+The dataset presented several common data entry challenges that required systematic cleaning:
+1. Initial Import Issues
+-Dataset imported as unstructured text
+-Manually defined column headers
+-Applied Text-to-Columns function to properly structure data into columns
+
+2. Data Preparation
+-Created duplicate worksheet named "Working Sheet" to preserve original data
+-Corrected data entry errors identified during import
+
+3. Data Standardization
+-Standardized text formats across all fields
+-Resolved inconsistent data types
+-Verified data integrity (no missing values found)
+
+4. Created calculated Revenue column (Price × Quantity) for sales analysis
+
+*************************************************************************************************************
+VISUALIZATION
+The following charts were used to visualize the dataset:
+
+* Cards: Display key metrics
+* Column & Bar Charts: Compare performance across categories
+* Pie Charts: Show genre distribution and revenue comparison
+* Line Charts: Illustrate sales trends over time
+* Slicers: Enable interactive filtering
+
+1.Books that generated more Revenue?
+Atomic Habits led with $620.00
+Sapiens: A Brief History of Humankind followed with $562.50
+<img width="1875" height="599" alt="Screenshot 2026-02-14 004325" src="https://github.com/user-attachments/assets/6b888212-c183-4b7c-85dd-cd8566185c16" />
+
+
+2. Fiction contributed 19% of total revenue
+Self-Help and Sci-Fi each contributed 13%
+<img width="1066" height="601" alt="Screenshot 2026-02-14 004336" src="https://github.com/user-attachments/assets/27ffa522-cc01-4f65-975e-b11dee07e1e5" />
+
+
+3. Sales Trends of Books Over Time?
+Peak publication years: 2018 and 2011
+Revenue shows clear upward trend with recent publications
+<img width="1248" height="586" alt="Screenshot 2026-02-14 004405" src="https://github.com/user-attachments/assets/ea3bdc58-80f2-4ecf-9f06-05c73b5ee1d9" />
+
+4. Top-Performing Author
+James Clear generated $820 across all books
+<img width="1262" height="591" alt="Screenshot 2026-02-14 004351" src="https://github.com/user-attachments/assets/06d59834-8b5f-4cf4-ad21-d7e410a9642a" />
+
+INSIGHTS
+* Total Revenue: $7,539.80
+
+* Average Quantity per Book: 21.36 units (indicates steady demand)
+
+* Top Revenue Drivers: Atomic Habits, Sapiens, and The Psychology of Money lead revenue generation
+
+* Genre Leaders: Fiction (19%), Self-Help (13%), and Sci-Fi (13%) show strong performance
+
+* Author Recognition: James Clear and Yuval Noah Harari demonstrate strong brand recognition
+
+* Publication Trends: More recent books generate higher revenue, indicating growing demand for modern publications
+
+
+
+Recommendations
+1. Increase stock-levels for top-performing books and authors; Books & Authors that generate highest revenue should have
+more copies available.
+
+2. Monitor low-performing genres inorder to be stock regularly
+
+3. Promote best-selling authors and genres that performs well through campaigns
+
+4. Pair best selling book with less popular one and sell them together
+
+5. Focus on acquiring recent published books rather than older publications to improve sales 
+and align with the current market demad.
+
+
+
+
